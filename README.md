@@ -3,8 +3,8 @@
 Cura parameters 
 
 PRINTER
-G21              ;metric value
-G90              ;absolute positioning
+#G21              ;metric value
+#G90              ;absolute positioning
 M82              ;set extruder to absolute mode
 M107             ;start with the fan off
 G28 X0 Y0        ;move X/Y to min endstops
